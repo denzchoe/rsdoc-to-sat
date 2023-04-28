@@ -10,5 +10,5 @@ REM )
 
 @echo off
 for %%f in (*.rsdoc) do (
-	if "%%~xf"==".rsdoc" python rsdoc_to_sat.py %%f
+	if "%%~xf"==".rsdoc" python rsdoc-to-sat.py %%f
 )
